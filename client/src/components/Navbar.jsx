@@ -41,6 +41,7 @@ const Navbar = () => {
 
   useEffect(() => {
     if (location.pathname !== "/") {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       setIsScrolled(true);
       return;
     } else {
